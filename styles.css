@@ -10,12 +10,12 @@ p{
 }
 
 .left{
-    width: 33%;
+    width: 44%;
     background-image: url(https://static.wikia.nocookie.net/princess-connect/images/d/d1/Kyaru-astrum2-sprite-normal.png/revision/latest?cb=20190621060929);
 }
 
 .right{
-    width: 66%;
+    width: 55%;
 }
 
 .right-header, .right-footer{
