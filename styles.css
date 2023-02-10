@@ -1,19 +1,25 @@
+html{
+    min-width: 100%;
+    min-height: 100vh;
+}
+
 .container{
     display: flex;
     flex-direction: row;
 }
-
-
 
 p{
     flex-wrap: wrap;
 }
 
 .left{
-    width: 50%;
-    height: 500px;
+    width: 33%;
 }
 
 .right{
-    width: 50%;
+    width: 66%;
+}
+
+.right-header, .right-footer{
+    background-color: #F9FAFB;
 }
