@@ -10,6 +10,10 @@ p{
 }
 
 .left{
-    width: 500px;
+    width: 50%;
     height: 500px;
+}
+
+.right{
+    width: 50%;
 }
