@@ -30,11 +30,30 @@ p{
 .right-header{
     height: 50%;
     padding-left:100 px ;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+    display: block;
 }
+
+p:first-child{
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+p:nth-child(2){
+    padding-left: 20%;
+    margin-top: 10% ;
+    font-weight: 100;
+    font-size: medium;
+}
+
+p:nth-child(3){
+    margin-top: 14%;
+    font-weight: 100;
+    font-size: xx-small;
+}
+
+
 
 .form{
     display: flex;
@@ -48,7 +67,7 @@ p{
 
 #logo{
     position : absolute;
-    top: 10px;
+    top: 50px;
     left: 100px;
 }
 
@@ -63,7 +82,9 @@ align-self: center;
     font-size: small;
     margin: 20px 10px 10px 100px;
 }
-
+ p{
+    padding-left: 5%;
+ }
 
 button{
     border: 2px solid rgb(6, 75, 92);
