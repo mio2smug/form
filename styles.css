@@ -11,35 +11,66 @@ p{
 }
 
 .left{
-    width: 44%;
+    width: 40%;
     background-image: url(https://static.wikia.nocookie.net/princess-connect/images/d/d1/Kyaru-astrum2-sprite-normal.png/revision/latest?cb=20190621060929);
 }
 
 .right{
-    width: 56%;
+    width: 60%;
 }
 
 .right-header, .right-footer{
     background-color: #F9FAFB;
 }
 
-.right-header, .right-footer, .form{
-    height: 33%;    
+.right-footer, .form{
+    height: 25%;    
+}
+
+.right-header{
+    height: 50%;
+    padding-left:100 px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
     border:1px;
     padding: 2px;
     box-shadow: 0px 0px 8px 3px #888888; 
 }
+
+#logo{
+    position : absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.right-footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+}
+
+.name, .password, .email{
+    font-size: small;
+    margin: 20px 10px 10px 100px;
+}
+
 
 button{
     border: 2px solid rgb(6, 75, 92);
     border-radius: 4px;
     background: rgb(6, 75, 92);
     color: rgb(106, 227, 249);
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
-    flex: 1 1 0%;
     outline: none !important;
 }
