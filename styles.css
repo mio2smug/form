@@ -87,6 +87,17 @@ align-self: center;
     padding-left: 5%;
  }
 
+input{
+    background-color: #F9FAFB;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #665df5;
+    box-shadow: 0 0 1px black;
+}
 
 button{
     border: 2px solid rgb(6, 75, 92);
@@ -96,6 +107,11 @@ button{
     padding: 10px;
     box-sizing: border-box;
     outline: none !important;
+}
+
+button:hover{
+    background-color: rgb(6, 95, 110);
+    color: black;
 }
 
 #myVideo{

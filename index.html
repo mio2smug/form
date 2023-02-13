@@ -38,14 +38,15 @@
                 <input type="text" name="email" id="user_email" placeholder="Astolfo">
 
                 <label for="phone_number">Phone Number:</label>
-                <input type="number" name="phonenumber" id="phone_number" placeholder="2222222222">
+                <input type="text" maxlength="10" name="phonenumber" id="phone_number" placeholder="2222222222">
+
             </div>
             <div class="password">
-                <label for="user_pw">Password:</label>
-                <input type="password" name="password" id="user_pw" placeholder="**********">
+                <label for="user_pw">*Password:</label>
+                <input type="password" name="password" id="user_pw" placeholder="**********" required>
 
-                <label for="confirm_pw">Confirm Password:</label>
-                <input type="password" name="confirmpw" id="confirm_pw" placeholder="**********">
+                <label for="confirm_pw">*Confirm Password:</label>
+                <input type="password" name="confirmpw" id="confirm_pw" placeholder="**********" required>
             </div>
             </div>
             <div class="right-footer">
